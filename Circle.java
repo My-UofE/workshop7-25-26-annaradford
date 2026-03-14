@@ -36,12 +36,22 @@ public class Circle {
        return String.format("Circle[radius=%.2f,color=%s]", radius, color);
     }
  
-    // Return the area of this Circle
-    public double getArea() {
+   // Return the area of this Circle
+   public double getArea() {
        return radius * radius * Math.PI;
     }
 
-    public double getCircumference(){
+   public double getCircumference(){
       return 2 * Math.PI * radius;
     }
+
+    // instance method
+   public void printClassInfo(){
+   System.out.println("It is a Circle class");
+   }
+
+   // static method
+   public static void printClassInfoStatic(){
+   System.out.println("It is a Circle class");
+   }
  }

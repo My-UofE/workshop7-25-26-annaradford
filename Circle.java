@@ -40,4 +40,8 @@ public class Circle {
     public double getArea() {
        return radius * radius * Math.PI;
     }
+
+    public double getCircumference(){
+      return 2 * Math.PI * radius;
+    }
  }
